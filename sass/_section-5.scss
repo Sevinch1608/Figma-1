@@ -1,0 +1,90 @@
+.section-5 {
+ 
+  .container {
+    border-radius: 12px;
+    background: url(../img.svg/tyler-lastovich-AVzByhROPbs-unsplash\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    color: $button-text-color;
+    padding: 72px 0 107px 0px;
+    margin-top: 36px;
+    img {
+      padding: 14px 16px;
+      border-radius: 9px;
+      border: 2px solid $button-text-color;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+    }
+    h3 {
+      text-align: center;
+      font-size: 1.33rem;
+      font-weight: 600;
+      line-height: 145.335%;
+      margin: 13px 0;
+    }
+    p {
+      display: none;
+    }
+
+    a {
+      display: flex;
+      padding: 16px;
+      justify-content: center;
+      align-items: center;
+      max-width: 198px;
+      border-radius: 67px;
+      border: 2px solid $button-text-color;
+      color: $button-text-color;
+      text-align: center;
+      font-size: 1.02rem;
+      font-weight: 600;
+      line-height: 146.969%;
+      margin: 0 auto;
+    }
+  }
+}
+@media (min-width: 1025px) {
+  
+  .section-5 {
+    
+      .container {
+        max-width: 884px;
+        margin: 0 auto;
+        height: 667px;
+        margin-top: 100px;
+      h3 {
+        font-size: 2.36rem;
+        font-weight: 600;
+        line-height: 94.987%;
+        margin-top: 45px;
+      }
+      p {
+        display: block;
+        color: $button-text-color;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 150%;
+        max-width: 650px;
+        margin: 0 auto;
+        padding: 12px 0 28px;
+      }
+      a {
+        max-width: 257px;
+      }
+    }
+  }
+}
+@media (min-width:1440px) {
+  .section-5{
+    .container{
+      max-width: 1300px;
+      margin: 0 auto;
+      margin-top:100px;
+    }
+  }
+  
+}

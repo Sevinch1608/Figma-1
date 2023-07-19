@@ -1,0 +1,108 @@
+.section-4 {
+  .container {
+    color: $text-color;
+    border-radius: 12px;
+    background: $bg-color;
+    padding: 64px 45px 56px 45px;
+    img {
+      display: none;
+    }
+    .sub-copy {
+      h2 {
+        text-align: center;
+        font-size: 2.48125rem;
+        font-weight: 600;
+        line-height: 133.501%;
+        margin-bottom: 40px;
+      }
+      .leaf {
+        .lorem-vector {
+          a {
+            display: flex;
+            margin: 41px 0 20px;
+            align-items: center;
+            justify-content: center;
+            img {
+              border-radius: 10px;
+              background: $surface;
+              padding: 14px 16px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+          p {
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 150%;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1025px) {
+  .section-4 {
+    .container {
+      max-width: 884px;
+      margin: 0 auto;
+
+      .sub-copy {
+        h2 {
+          font-size: 3.1575rem;
+          font-weight: 600;
+          line-height: 122.724%;
+        }
+        .leaf {
+          display: flex;
+          gap: 53px;
+
+          align-items: center;
+          justify-content: center;
+          .lorem-vector {
+            max-width: 252px;
+            margin-bottom: 32px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1440px) {
+  .section-4 {
+    .container {
+      max-width: 1300px;
+      margin: 0 auto;
+
+      padding: 64px 70px 56px 70px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      img {
+        display: block;
+        display: flex;
+        align-items: end;
+      }
+      .sub-copy {
+        h2 {
+          text-align: left;
+        }
+        .leaf {
+          display: flex;
+          gap: 69px;
+          .lorem-vector {
+            a {
+              display: flex;
+              align-items: start;
+              justify-content: start;
+            }
+            p {
+              text-align: left;
+              max-width: 237px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
