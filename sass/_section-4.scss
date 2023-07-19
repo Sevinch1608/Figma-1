@@ -24,7 +24,7 @@
             justify-content: center;
             img {
               border-radius: 10px;
-              background: $surface;
+              background: #EBBFAE;
               padding: 14px 16px;
               display: flex;
               align-items: center;
@@ -75,7 +75,7 @@
       max-width: 1300px;
       margin: 0 auto;
 
-      padding: 64px 70px 56px 70px;
+      padding: 64px 70px 56px 140px;
       display: grid;
       grid-template-columns: 1fr 1fr;
       img {

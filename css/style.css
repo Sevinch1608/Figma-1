@@ -238,7 +238,7 @@ header .container .hero-section .tablet {
   .section-2 .container {
     max-width: 1300px;
     margin: 0 auto;
-    padding: 64px 70px 0 70px;
+    padding: 64px 160px 0 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -404,7 +404,7 @@ header .container .hero-section .tablet {
 }
 .section-4 .container .sub-copy .leaf .lorem-vector a img {
   border-radius: 10px;
-  background: #FCE2D7;
+  background: #EBBFAE;
   padding: 14px 16px;
   display: flex;
   align-items: center;
@@ -442,7 +442,7 @@ header .container .hero-section .tablet {
   .section-4 .container {
     max-width: 1300px;
     margin: 0 auto;
-    padding: 64px 70px 56px 70px;
+    padding: 64px 70px 56px 140px;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -561,7 +561,7 @@ header .container .hero-section .tablet {
   justify-content: center;
   align-items: center;
   gap: 49px;
-  max-width: 300px;
+  width: 80%;
   margin: 0 auto;
 }
 .section-6 .container .plant-section .plant-img {
@@ -587,7 +587,8 @@ header .container .hero-section .tablet {
     max-width: 884px;
   }
   .section-6 .container .plant-section {
-    max-width: 743px;
+    width: 80%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 220px 220px;
   }
@@ -603,9 +604,13 @@ header .container .hero-section .tablet {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
-    justify-content: space-between;
-    max-width: 1165px;
+    width: 85%;
+    margin: 0 auto;
     padding: 119px 66px;
+  }
+  .section-6 .container .plant-section .plant-img img {
+    width: 82px;
+    height: 82px;
   }
 }
 footer {
